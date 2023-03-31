@@ -15,7 +15,7 @@ fors.addEventListener("submit",function(e){
 		ans+=h3+"?"+"name="+name +"&year="+year;
 	}
 	if(ans){
-		document.document.querySelector("h3").textContent=ans;
+		document.querySelector("h3").textContent=ans;
 	}
 });
 

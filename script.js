@@ -4,7 +4,7 @@ fors.addEventListener("submit",function(e){
 	e.preventDefault();
 	let name=document.getElementById("name").value;
 	let year=document.getElementById("year").value;
-	let h3=document.querySelector("h3").innerText;
+	let h3=document.querySelector("#url").innerText;
 	let name2="name";
 	let ans="";
 	if(name=="" && year!=""){
@@ -15,7 +15,7 @@ fors.addEventListener("submit",function(e){
 		ans+=h3+"?"+"name="+name +"&year="+year;
 	}
 	if(ans){
-		document.querySelector("h3").textContent=ans;
+		document.querySelector("#url").textContent=ans;
 	}
 });
 
